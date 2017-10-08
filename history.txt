@@ -1,0 +1,20 @@
+echo $PATH
+ls
+ls -la
+x=5
+z=7
+echo $x/$zecho "string" $PATH
+export x=5
+export x=5
+echo $xls
+ls
+ls
+ls
+export x="5"
+echo $xexport x=5
+echo $x $xpwd
+ls -a
+cd "cmake-build-debug"
+pwdx=
+echo $xx=x="5"
+x="5"

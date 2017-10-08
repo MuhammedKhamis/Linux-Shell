@@ -1,0 +1,226 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/basic.c
+basic.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/basic.h
+environment.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
+constants.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/basic.h
+commandState.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/commandState.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/batch.c
+batch.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/batch.h
+fileHandler.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/fileHandler.h
+singleCommandHandler.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/singleCommandHandler.h
+logger.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
+stdlib.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/batch.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/commandState.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.c
+environment.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
+constants.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/executer.c
+logger.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
+commandState.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/commandState.h
+stdio.h
+-
+stdlib.h
+-
+signal.h
+-
+unistd.h
+-
+wait.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/executer.h
+commandState.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/commandState.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/fileHandler.c
+stdio.h
+-
+stdlib.h
+-
+vector.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/vector.h
+fileHandler.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/fileHandler.h
+constants.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/fileHandler.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.c
+history.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.h
+constants.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/interactive.c
+interactive.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/interactive.h
+singleCommandHandler.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/singleCommandHandler.h
+logger.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
+stdio.h
+-
+stdlib.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/interactive.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.c
+logger.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
+constants.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/main.c
+batch.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/batch.h
+interactive.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/interactive.h
+environment.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
+history.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.h
+logger.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/singleCommandHandler.c
+singleCommandHandler.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/singleCommandHandler.h
+special.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/special.h
+basic.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/basic.h
+executer.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/executer.h
+history.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.h
+stringparsing.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/stringparsing.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/singleCommandHandler.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/special.c
+special.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/special.h
+constants.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+environment.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
+history.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+wait.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/special.h
+commandState.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/commandState.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/stringparsing.c
+stringparsing.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/stringparsing.h
+constants.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/constants.h
+environment.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
+vector.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/vector.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/stringparsing.h
+commandState.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/commandState.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/vector.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+vector.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/vector.h
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/vector.h
+

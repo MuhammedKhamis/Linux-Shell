@@ -1,0 +1,170 @@
+ls
+gedit &
+ls
+gedit
+gedit
+gedit
+gedit
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+export x=5
+export x=5
+export x=5
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+x="5"
+x=5
+x="5"
+x="s"
+x="s"
+x="s"
+x="s"
+x="s"
+x="s"
+x="s"
+x="5"
+x="5"
+x="5"
+ls
+export x=5
+export "x=5"
+export x="5"
+x=5
+echo $x
+export x=5
+echo $x
+x=
+x=
+x=5
+x=
+x=5
+x=
+x=5
+x=
+echo $x
+echo x
+x="5"
+x="5"
+x="5"
+echo $x
+x="      5"
+echo $x
+"x=5"
+echo $x
+"x=152s"
+echo $x
+export x=41
+echo $x
+export x="47"
+echo $x
+x=5
+echo $x
+x=5
+echo $x
+export x="8"
+echo $x
+x=5
+export x="7"
+export x="5"
+x=5
+echo $x
+export x="7"
+echo $x
+export "x=6"
+echo $x
+x= 5
+echo $x
+x= 4
+echo $x
+x= 4
+x= 4
+x= 4
+x=4
+x= 4
+ x=8
+echo $x
+echo $x
+x="-l"
+echo $x
+ls $x
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+sl
+ls
+gedit
+gedit &
+gedit &
+gedit &
+gedit &
+gedit &
+gedit &
+gedit
+gedit &
+gedit &
+pwd &
+pwd
+cd ~
+cd ~
+cd ~
+pwd
+cd ~
+pwd
+ls
+ls -la
+v="-l"
+ls $v
+v="-a -l"
+echo $v
+ls $v
+gedit &
+gedit
+gedit
+gedit
