@@ -12,38 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b64254a-e791-4a45-9598-bcd50be67df6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Linux_Shell" afterPath="$PROJECT_DIR$/cmake-build-debug/Linux_Shell" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Linux_Shell.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/history.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/history.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/logger.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/logger.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/executer.c" afterPath="$PROJECT_DIR$/executer.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic.c" afterPath="$PROJECT_DIR$/basic.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history.txt" afterPath="$PROJECT_DIR$/history.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logger.txt" afterPath="$PROJECT_DIR$/logger.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singleCommandHandler.c" afterPath="$PROJECT_DIR$/singleCommandHandler.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/special.c" afterPath="$PROJECT_DIR$/special.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stringparsing.c" afterPath="$PROJECT_DIR$/stringparsing.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +30,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -71,8 +45,8 @@
       <file leaf-file-name="singleCommandHandler.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singleCommandHandler.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="280">
+              <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -80,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="special.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="special.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/special.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+            <state relative-caret-position="3220">
+              <caret line="170" column="26" lean-forward="true" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -93,9 +67,21 @@
       <file leaf-file-name="executer.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/executer.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="-20">
               <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +99,8 @@
       <file leaf-file-name="stringparsing.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stringparsing.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+            <state relative-caret-position="83">
+              <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -131,15 +117,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/interactive.c" />
-        <option value="$PROJECT_DIR$/basic.c" />
         <option value="$PROJECT_DIR$/environment.c" />
         <option value="$PROJECT_DIR$/commandState.h" />
-        <option value="$PROJECT_DIR$/stringparsing.c" />
         <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/singleCommandHandler.c" />
         <option value="$PROJECT_DIR$/executer.c" />
-        <option value="$PROJECT_DIR$/special.c" />
         <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/stringparsing.c" />
+        <option value="$PROJECT_DIR$/singleCommandHandler.c" />
+        <option value="$PROJECT_DIR$/basic.c" />
+        <option value="$PROJECT_DIR$/special.c" />
       </list>
     </option>
   </component>
@@ -414,12 +400,12 @@
       <workItem from="1507648561312" duration="6792000" />
       <workItem from="1507666068394" duration="938000" />
       <workItem from="1507668789628" duration="260000" />
-      <workItem from="1507669276300" duration="697000" />
+      <workItem from="1507669276300" duration="1467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13714000" />
+    <option name="totallyTimeSpent" value="14484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
@@ -766,56 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stringparsing.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/singleCommandHandler.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/special.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/executer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -827,6 +767,52 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stringparsing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleCommandHandler.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/special.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3220">
+          <caret line="170" column="26" lean-forward="true" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -22,6 +22,7 @@ int special(commandState state){
     // Size needed
     if(state.sz < 2){
         perror("Error in Command Size");
+        fprintf(stderr,"Error in the size of the command");
         return -1;
     }
     if(!strcasecmp(state.arg_list[0], "echo")){
@@ -82,6 +83,7 @@ int cd(commandState state){
     }
     if(r){
         perror("Error in cd");
+        fprintf(stderr,"Error in the cd Command");
     }
     free_arg_list(state.arg_list);
     return r;
@@ -112,11 +114,6 @@ int history(commandState state){
     }
     free_arg_list(state.arg_list);
     return 0;
-}
-int logs(commandState state){
-    free_arg_list(state.arg_list);
-    return 0;
-
 }
 int addVar(char** arg_list){
     char* data;
@@ -156,6 +153,7 @@ int equal(commandState state){
     free_arg_list(state.arg_list);
     if(rVal){
         perror("Error In Assignment");
+        fprintf(stderr,"Error happened while making assignment");
     }
     return rVal;
 }
@@ -170,6 +168,7 @@ int export(commandState state){
     int r = equal(state);
     if(r){
         perror("Error In Export");
+        fprintf(stderr,"Error happened in export");
     }
     return r;
 }

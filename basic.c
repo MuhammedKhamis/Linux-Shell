@@ -24,5 +24,5 @@ int basic(commandState state){
     free(data);
     execv(state.arg_list[0],state.arg_list);
     perror("Error in execv Command");
-    abort();
+    fprintf(stderr,"Error in command to execv");
 }

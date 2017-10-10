@@ -21,6 +21,7 @@ void executeCommand(char* command){
     }
     if(strlen(command) > 512){
         perror("Big size Command");
+        fprintf(stderr,"Command size is bigger than 512 characters");
         return;
     }
     appendToHistory(command);

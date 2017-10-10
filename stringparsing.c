@@ -119,6 +119,9 @@ void divide_into_arguments(char* command , commandState* state){
             if(!strcmp(state->arg_list[size-2], "&")){
                 state->arg_list[size-2] = NULL;
                 state->background = 1;
+            }else if(state->arg_list[size-2][strlen(state->arg_list[size-2])-1]=='&'){
+                state->arg_list[size-2][strlen(state->arg_list[size-2])-1]='\0';
+                state->background=1;
             }
         }
         state->sz=size;
