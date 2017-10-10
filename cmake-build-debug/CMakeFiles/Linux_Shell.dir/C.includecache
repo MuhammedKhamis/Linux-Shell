@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -166,6 +166,8 @@ history.h
 stringparsing.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/stringparsing.h
 stdio.h
+-
+string.h
 -
 
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/singleCommandHandler.h

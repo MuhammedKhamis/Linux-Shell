@@ -235,3 +235,24 @@ In Batch mode
 In Batch mode
 Error from Reading from Console
 Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Terminated
+Child is Created
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console

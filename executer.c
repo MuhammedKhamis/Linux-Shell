@@ -14,10 +14,6 @@ void handler(int signal){
     }
 }
 
-int execute_special(commandState state, int (*functionPtr)(commandState) ){
-    (*functionPtr)(state);
-}
-
 int execute_basic(commandState state, int (*functionPtr)(commandState)){
     int status;
     signal(SIGCHLD,handler);
@@ -25,6 +21,7 @@ int execute_basic(commandState state, int (*functionPtr)(commandState)){
     if(child_pid == 0){
         //In Child
         (*functionPtr)(state);
+        kill(getpid(),SIGINT);
     }else{
         // In Parent
         appendToLogger("Child is Created\n");
@@ -34,5 +31,13 @@ int execute_basic(commandState state, int (*functionPtr)(commandState)){
             } while (!WIFEXITED(status) && !WIFSIGNALED(status));
         }
     }
+}
 
+int execute_special(commandState state, int (*functionPtr)(commandState) ){
+
+    if(state.background){
+        execute_basic(state,functionPtr);
+    }else{
+        (*functionPtr)(state);
+    }
 }

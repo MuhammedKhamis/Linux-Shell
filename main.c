@@ -10,7 +10,7 @@ void init_env(){
     init_variable();
     init_history();
     init_logger();
-    //chdir(get_variable("HOME"));
+    chdir(get_variable("HOME"));
 }
 
 int main(int argc, char const *argv[]) {

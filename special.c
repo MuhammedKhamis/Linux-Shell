@@ -99,7 +99,7 @@ int echo(commandState state){
 int quit(commandState state){
     free_env();
     free_arg_list(state.arg_list);
-    kill(getppid(),SIGINT);
+    kill(getpid(),SIGINT);
 }
 int comment(commandState state){
     return 0;

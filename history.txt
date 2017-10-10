@@ -201,3 +201,20 @@ echo $x
 echo "hello world"
 echo              	"hello           world"echo                 "Hello  world"
 echo        		"Hello world"
+pwd
+cd ..
+pwd
+cd .
+pwd
+cd
+pwd
+exit
+exit
+exit
+exit
+exit &
+pwd
+cd .. &
+pwd
+cd ..
+pwd

@@ -6,6 +6,7 @@
 #include "stringparsing.h"
 
 #include <stdio.h>
+#include <string.h>
 
 char* skipWhite(char* command){
     int i = 0;
@@ -16,6 +17,10 @@ char* skipWhite(char* command){
 void executeCommand(char* command){
     command = skipWhite(command);
     if(command[0]=='\n'){
+        return;
+    }
+    if(strlen(command) > 512){
+        perror("Big size Command");
         return;
     }
     appendToHistory(command);
