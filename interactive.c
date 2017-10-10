@@ -14,6 +14,7 @@ void interactive(){
         if(getline(&command, &len, stdin) == -1){
             appendToLogger("Error from Reading from Console\n");
             printf("\n");
+            free(command);
             exit(1);
         }else{
             executeCommand(command);

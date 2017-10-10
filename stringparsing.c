@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <string.h>
 #include <ctype.h>
 
@@ -15,9 +16,16 @@ int isValid(char c){
     }
     return 0;
 }
+int skip(char c){
+    if(c==' ' || c=='\n' || c=='\t' || c=='\r' || c=='\r'){
+        return 1;
+    }
+    return 0;
+}
 char* subString(char* string , int start , int end){
-    char* tmp = malloc((end-start+1)* sizeof(char));
-    memset(tmp, '\0', end-start+1);
+    size_t sz = (end-start+1)* sizeof(char);
+    char* tmp = malloc(sz);
+    memset(tmp, '\0', sz);
     int i = 0;
     while((i+start)<end){
         tmp[i]=string[start+i];
@@ -27,10 +35,13 @@ char* subString(char* string , int start , int end){
 }
 
 //First we Unlock $
-char* unlock_dollar(char* command){
+char* unlock_dollar(char* command,commandState* state){
     char* newCommand = malloc(MAX_STRING_SIZE*sizeof (char));
     memset(newCommand, '\0', MAX_STRING_SIZE * sizeof(char));
     size_t n = strlen(command);
+    if( (n>1)  && (command[0]=='$' || (command[0]=='\"' && command[1]=='$'))){
+        state->forcedBasic=1;
+    }
     int i;
     for(i=0;i<n;i++){
         if(command[i]=='$'){
@@ -41,9 +52,12 @@ char* unlock_dollar(char* command){
             //Nothing valid after $
             if(j==i+1){
                 if(command[j]=='$'){
-                    strcat(newCommand,get_variable("$$"));
+                    char str[6]={'\0'};
+                    sprintf(str,"%d",getpid());
+                    strcat(newCommand,str);
                     i=j;
                 }else{
+                    strcat(newCommand,&command[i]);
                     i=j-1;
                 }
             }else{
@@ -69,7 +83,7 @@ void divide_into_arguments(char* command , commandState* state){
     int mask = 0;
     int turn = 0;
     for(i=0;i<n;i++){
-        if(command[i]==' ' || command[i]=='\n')
+        if(skip(command[i]))
             continue;
         int j = i;
         int margin=0;
@@ -113,12 +127,8 @@ void divide_into_arguments(char* command , commandState* state){
 }
 
 commandState parse_command(char* command){
-    commandState state = {.arg_list = NULL , .background = 0 , .sz = 0 , .mask=0} ;
-    char* newCommand = unlock_dollar(command);
+    commandState state = {.arg_list = NULL , .background = 0 , .sz = 0 , .mask=0 , .forcedBasic = 0} ;
+    char* newCommand = unlock_dollar(command,&state);
     divide_into_arguments(newCommand, &state);
-    ////////////////////////Crime Scene//////////////////////////////////
-    // This line cause problems for the second input as Interactive mode
-    //free(command);
-    ///////////////////////////////////////////////////////////////////
     return state;
 }

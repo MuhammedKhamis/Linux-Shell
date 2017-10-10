@@ -8,6 +8,7 @@
 #include <string.h>
 
 int basic(commandState state){
+
     char* path = get_variable("PATH");
     char* data = strtok(path,":");
     while( data != NULL){
@@ -22,4 +23,6 @@ int basic(commandState state){
     }
     free(data);
     execv(state.arg_list[0],state.arg_list);
+    perror("Error in execv Command");
+    abort();
 }

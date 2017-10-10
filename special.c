@@ -13,9 +13,9 @@ int echo(commandState state);
 int cd(commandState state);
 int quit(commandState state);
 int history(commandState state);
-int logs(commandState state);
 int equal(commandState state);
 int export(commandState state);
+int comment(commandState state);
 void free_arg_list(char** arg_list);
 
 int special(commandState state){
@@ -40,18 +40,19 @@ int special(commandState state){
         validFunction = &history;
         return 0;
     }
-    if(!strcasecmp(state.arg_list[0], "log")){
-        validFunction = &logs;
-        return 0;
-    }
     if(!strcasecmp(state.arg_list[0], "export")){
         validFunction = &export;
+        return 0;
+    }
+    if(state.arg_list[0][0] == '#'){
+        validFunction = &comment;
         return 0;
     }
     if(strstr(state.arg_list[0], "=")){
         validFunction = &equal;
         return 0;
     }
+
     return -1;
 }
 
@@ -67,7 +68,7 @@ int cd(commandState state){
     {
         //true for dir w.r.t. /
         r = chdir(path);
-    }else if(path[0] == '~'){
+    }else if(path[0] == '~' || path[0] == '\0'){
         char* tmp = path+1;
         strcat(cwd,get_variable("HOME"));
         strcat(cwd,tmp);
@@ -78,6 +79,9 @@ int cd(commandState state){
         strcat(cwd,"/");
         strcat(cwd,path);
         r = chdir(cwd);
+    }
+    if(r){
+        perror("Error in cd");
     }
     free_arg_list(state.arg_list);
     return r;
@@ -97,6 +101,9 @@ int quit(commandState state){
     free_arg_list(state.arg_list);
     kill(getppid(),SIGINT);
 }
+int comment(commandState state){
+    return 0;
+}
 
 int history(commandState state){
     if(state.arg_list[1]== NULL){
@@ -104,7 +111,7 @@ int history(commandState state){
         printHistory();
     }
     free_arg_list(state.arg_list);
-    return -1;
+    return 0;
 }
 int logs(commandState state){
     free_arg_list(state.arg_list);

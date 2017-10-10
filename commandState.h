@@ -7,6 +7,7 @@ typedef struct commandState{
     int background;
     int sz;
     int mask;
+    int forcedBasic;
 
 }commandState;
 

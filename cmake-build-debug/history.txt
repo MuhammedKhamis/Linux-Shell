@@ -168,3 +168,39 @@ gedit &
 gedit
 gedit
 gedit
+ls
+ls -la
+ls -a -l
+/bin/ls -l -a
+               /bin/ls        -l
+
+      
+      /bin/ls -l
+vim
+ls
+gedit &
+ps
+/bin/ps
+cd c
+x="-l -a"
+echo $x
+ls $x
+asdcds
+asdsf
+asdcf
+zxcv
+asdfc
+x=5
+echo $x
+$x=7
+gedit
+gedit
+gedit
+pwd
+gedit &
+ls
+echo $$$
+echo $$$
+echo $$$
+echo $$$
+echo $$$$

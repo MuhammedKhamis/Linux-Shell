@@ -18,3 +18,186 @@ cd "cmake-build-debug"
 pwdx=
 echo $xx=x="5"
 x="5"
+pwd
+mkdir cs333
+touch cs333/lab1.txt
+cd cs333
+pwd
+vi lab1.txt
+pwd
+cd ../
+pwd
+cd ~
+pwd
+cd ..
+cd..
+pwd
+cd /media/muhammed
+pwd
+cd ~
+pwd
+ls
+echo $PATH
+ls
+pwd
+echo $PATH
+cd ../
+pwd
+cd ~
+pwd
+echo $PATH
+x=5
+echo $x
+echo "Hello world"
+echo                 "hello            World"
+history
+pwd
+  # comment
+history
+ps
+clear
+firefox
+x=5
+echo $x
+#comment
+history
+ls
+pwd
+cd ..
+pwd
+cd ~
+pwd
+cd /
+pwd
+cd media
+ls
+cd muhammed
+ls
+cd Shared
+ls
+cd Work
+ls
+cd CSED 19
+ls
+cd "CSED 19"
+ls
+cd C
+ls
+cd "3rd Year"
+ls
+cd "Operating"
+ls
+cd c
+x="-l -a"
+echo $x
+ls $x
+ls
+x="-l -a"
+ls $x
+x="-l -a"
+x="-l -a"
+ls $x
+cd
+pwd
+cd ~
+pwd
+ls
+cd Desktop
+ls
+cd "linux Training"
+ls
+cd
+pwd
+clear
+x=5
+echo $x
+x="Hello,   World"
+echo $x
+echo "$x"
+history
+asd
+echo
+x=
+echo $x
+c
+$x
+x=5
+$X
+$x
+x
+echo $x
+asd
+adf
+asdcdd
+asdcf
+asdcd
+asdce
+asdcde
+ls
+ls &
+pwd
+clear
+ls
+gedit
+ls &
+pwd
+ls &
+pwd
+clear
+make
+ls &
+pwd
+ls
+cd
+pwd
+ls
+cd Desktop
+cd 
+pwd
+ls
+ls
+cd .
+pwd
+history
+x=cd
+c=ls
+$c
+echo $$
+echo $$$
+x="5"
+echo $xls
+ls -al
+ls -a -l
+/bin/ls -l -a
+        /bin/ls     -l
+vim
+gedit &
+ps
+bin/ps
+pwd
+mkdir cs333
+touch cs333/lab1.txt
+cd ~/cs333
+vi lab1.txt
+pwd
+cd ../
+cd ~
+wc cs333/lab1.txt
+cat cs333/lab1.txt
+#this is a comment
+x=5
+echo $x
+echo "hello world"
+echo              	"hello           world"
+historyecho      "dd     dd"
+#this is a comment
+x=5
+echo $x
+echo "hello world"
+echo              	"hello           world"
+history#this is a comment
+x=5
+echo $x
+echo "hello world"
+echo              	"hello           world"echo                 "Hello  world"
+echo        		"Hello world"

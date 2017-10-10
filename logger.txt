@@ -11,3 +11,227 @@ Child is CreatedChild is CreatedChild is CreatedIn Batch mode
 In Batch mode
 In Batch mode
 In Batch mode
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Terminated
+Child is Created
+Child is Created
+Child is Terminated
+Child is Created
+Child is Created
+Child is Created
+Child is Created
+Child is Created
+Error from Reading from Console
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Terminated
+Child is Created
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Error from Reading from Console
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Created
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Error from Reading from Console
+Child is Terminated
+Error from Reading from Console
+Child is Terminated
+Error from Reading from Console
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Error from Reading from Console
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Error from Reading from Console
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Error from Reading from Console
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Error from Reading from Console
+Child is Created
+Child is Terminated
+Error from Reading from Console
+In Batch mode
+In Batch mode
+In Batch mode
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+Child is Created
+Child is Terminated
+In Batch mode
+In Batch mode
+Error from Reading from Console
+Error from Reading from Console

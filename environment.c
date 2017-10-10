@@ -39,7 +39,11 @@ char* get_variable(char* key){
     int i = 0;
     for(;i < ind ; i++){
         if(strcmp(list[i]->key,key) == 0){
-            return list[i]->value;
+            size_t n = strlen(list[i]->value)*sizeof(char);
+            char* tmp = malloc(n);
+            memset(tmp,'\0',n);
+            strcpy(tmp,list[i]->value);
+            return tmp;
         }
     }
     return "";

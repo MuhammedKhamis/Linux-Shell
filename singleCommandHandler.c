@@ -5,12 +5,23 @@
 #include "history.h"
 #include "stringparsing.h"
 
+#include <stdio.h>
+
+char* skipWhite(char* command){
+    int i = 0;
+    while(command[i++] == ' ');
+    return command;
+}
 
 void executeCommand(char* command){
+    command = skipWhite(command);
+    if(command[0]=='\n'){
+        return;
+    }
     appendToHistory(command);
     commandState state = parse_command(command);
     // send it to Special
-    if( special(state) == 0 ){
+    if( special(state) == 0  && !state.forcedBasic ){
         execute_special(state, validFunction);
     }else{
         // send it to Basic
