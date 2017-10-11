@@ -5,6 +5,14 @@
 
 #include <stdlib.h>
 
+
+/**
+ *
+ *    Batch mode Activated B)
+ *
+ * @param fileName
+ */
+
 void batch(const char* fileName){
     // Read file and store it in commands
     char** commands = readFile(fileName);

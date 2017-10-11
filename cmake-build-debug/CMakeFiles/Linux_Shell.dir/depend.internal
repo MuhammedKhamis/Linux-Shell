@@ -41,7 +41,9 @@ CMakeFiles/Linux_Shell.dir/logger.c.o
  /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
 CMakeFiles/Linux_Shell.dir/main.c.o
  /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/batch.h
+ /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/commandState.h
  /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
+ /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/executer.h
  /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.h
  /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/interactive.h
  /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h

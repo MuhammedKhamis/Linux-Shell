@@ -55,6 +55,8 @@ string.h
 -
 stdlib.h
 -
+ctype.h
+-
 
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/environment.h
 
@@ -149,6 +151,8 @@ history.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/history.h
 logger.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/logger.h
+executer.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Linux-Shell/executer.h
 unistd.h
 -
 

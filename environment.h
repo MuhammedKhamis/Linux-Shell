@@ -17,6 +17,10 @@ void insert_variable(envVariable* var);
 
 char* get_variable(char* key);
 
+int addVar(char* expression);
+
+void printValues(char c);
+
 void free_env();
 
 #endif

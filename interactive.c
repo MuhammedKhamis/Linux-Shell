@@ -5,6 +5,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ *
+ *  Interactive mode Activated B)
+ *
+ */
 
 void interactive(){
     char* command = NULL;

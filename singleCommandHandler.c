@@ -8,12 +8,23 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ *      skips the white characters at the beginning of the command.
+ * @param command
+ * @return
+ */
 char* skipWhite(char* command){
     int i = 0;
     while(command[i++] == ' ');
     return command;
 }
 
+/**
+ *
+ *      execute the command given to the function.
+ *
+ * @param command
+ */
 void executeCommand(char* command){
     command = skipWhite(command);
     if(command[0]=='\n'){

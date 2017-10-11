@@ -16,7 +16,17 @@ int history(commandState state);
 int equal(commandState state);
 int export(commandState state);
 int comment(commandState state);
+int printenv(commandState state);
 void free_arg_list(char** arg_list);
+
+/**
+ *
+ *      determine which function of those will be applied and save its address in
+ *      function pointer (validFunction) attribute to use it later.
+ *
+ * @param state
+ * @return
+ */
 
 int special(commandState state){
     // Size needed
@@ -24,6 +34,10 @@ int special(commandState state){
         perror("Error in Command Size");
         fprintf(stderr,"Error in the size of the command");
         return -1;
+    }
+    if(!strcasecmp(state.arg_list[0], "printenv")){
+        validFunction = &printenv;
+        return 0;
     }
     if(!strcasecmp(state.arg_list[0], "echo")){
         validFunction = &echo;
@@ -57,6 +71,14 @@ int special(commandState state){
     return -1;
 }
 
+/**
+ *
+ *      changes the current work directory.
+ *
+ * @param state
+ * @return
+ */
+
 int cd(commandState state){
     char path[MAX_STRING_SIZE]={'\0'};
     int i = 1;
@@ -88,6 +110,13 @@ int cd(commandState state){
     free_arg_list(state.arg_list);
     return r;
 }
+/**
+ *
+ *      echo function that is resposible for printing out the arguments of the echo
+ *
+ * @param state
+ * @return
+ */
 int echo(commandState state){
     int i = 1;
     while(state.arg_list[i] != NULL){
@@ -97,16 +126,35 @@ int echo(commandState state){
     free_arg_list(state.arg_list);
     return 0;
 }
-
+/**
+ *
+ *  this functions fires when it got exit command.
+ *
+ * @param state
+ * @return
+ */
 int quit(commandState state){
     free_env();
     free_arg_list(state.arg_list);
     kill(getpid(),SIGINT);
 }
+/**
+ *
+ *      ignore any comment ( # )
+ *
+ * @param state
+ * @return
+ */
 int comment(commandState state){
     return 0;
 }
-
+/**
+ *
+ *      prints out the history of the commands from the history file
+ *
+ * @param state
+ * @return
+ */
 int history(commandState state){
     if(state.arg_list[1]== NULL){
         // open file and print it;
@@ -115,26 +163,20 @@ int history(commandState state){
     free_arg_list(state.arg_list);
     return 0;
 }
-int addVar(char** arg_list){
-    char* data;
-    if((data = strstr(arg_list[0],"=")) != NULL){
-        envVariable var ;
-        int sz = strlen(arg_list[0]);
-        var.key = (char*)malloc(sizeof(char)*sz);
-        memset(var.key, '\0', sizeof(var.key));
-        var.value = (char*)malloc(sizeof(char)*sz);
-        memset(var.value, '\0', sizeof(var.value));
-        strncpy(var.key, arg_list[0], data-arg_list[0]);
-        strncpy(var.value, data+1, arg_list[0]+sz-data);
-        insert_variable(&var);
-        return 0;
-    }
-}
+/**
+ *
+ *      Assignment program aka =
+ *
+ * @param state
+ * @return -1 if error happened
+ *          0 if it's OK
+ */
+
 int equal(commandState state){
     int rVal = -1;
     if(state.sz==2){
         // SEE ENVIROMENTAL VARIABLES
-        addVar(state.arg_list);
+        addVar(state.arg_list[0]);
         rVal = 0;
     }else if(state.sz == 3 && (state.mask & 2) ){
         // [ x= , "anything" ]
@@ -147,7 +189,7 @@ int equal(commandState state){
         state.arg_list[1]= NULL;
         state.arg_list[0]= realloc(state.arg_list[0],sizeof(data));
         strcpy(state.arg_list[0],data);
-        addVar(state.arg_list);
+        addVar(state.arg_list[0]);
         rVal=0;
     }
     free_arg_list(state.arg_list);
@@ -157,6 +199,14 @@ int equal(commandState state){
     }
     return rVal;
 }
+/**
+ *      apply the export command.
+ *
+ *  Short Note: I don't know the difference between this and the assignment aka =.
+ *
+ * @param state
+ * @return
+ */
 int export(commandState state){
     int i = 1;
     while(state.arg_list[i-1]!=NULL){
@@ -172,6 +222,37 @@ int export(commandState state){
     }
     return r;
 }
+/**
+ *      printenv function that is responsible for printing the environmental variables.
+ *
+ * @param state
+ * @return
+ */
+int printenv(commandState state){
+    char c='\n';
+    int i = 1;
+    while( state.arg_list[i]
+           && (!strcmp(state.arg_list[i],"--null") || !strcmp(state.arg_list[i],"-0"))){
+        i++;
+        c='\0';
+    }
+    if(state.sz == i+1){
+        printValues(c);
+    }else{
+        while(state.arg_list[i]!=NULL){
+            char* data = get_variable(state.arg_list[i++]);
+            if(data) {
+                printf("%s%c", data, c);
+            }
+        }
+    }
+    return 0;
+}
+/**
+ *  Free the argument list that takes to avoid memory leak
+ *
+ * @param arg_list
+ */
 void free_arg_list(char** arg_list){
     int i = 0;
     while(arg_list[i]!=NULL){

@@ -219,3 +219,14 @@ pwd
 cd ..
 pwd
 pwd
+printenv
+printenv -0
+printenv
+printenv
+printenv -0
+printenv -0
+printenv
+printenv -0 HOME PATH
+printenv HOME PATH
+printenv -0 HOME PATH
+printenv -0 --null HOME PATH

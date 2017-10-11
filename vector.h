@@ -1,6 +1,12 @@
 #ifndef VECTOR_H_   /* Include guard */
 #define VECTOR_H_
 
+/**
+ *  Vector Data structure.
+ *
+ */
+
+
 typedef struct vector {
     int index;
     int size;

@@ -6,6 +6,11 @@
 #include <string.h>
 #include <unistd.h>
 
+/**
+ *  print all the file of history
+ * @return
+ */
+
 int printHistory(){
     char* line = NULL;
     size_t len = 0;
@@ -23,6 +28,13 @@ int printHistory(){
         free(line);
     return 0;
 }
+
+/**
+ *      append the command to the history file.
+ * @param command
+ * @return
+ */
+
 int appendToHistory(const char* command){
     FILE* fp = fopen(historyFile,"a");
     if (fp == NULL){
@@ -33,6 +45,12 @@ int appendToHistory(const char* command){
     fclose(fp);
     return 0;
 }
+
+/**
+ *
+ *  initialize the history environment
+ *
+ */
 void init_history(){
     historyFile= malloc(MAX_STRING_SIZE*sizeof (*historyFile));
     memset(historyFile,'\0',MAX_STRING_SIZE*sizeof(*historyFile));

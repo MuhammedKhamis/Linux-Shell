@@ -40,7 +40,9 @@ CMakeFiles/Linux_Shell.dir/logger.c.o: ../logger.c
 CMakeFiles/Linux_Shell.dir/logger.c.o: ../logger.h
 
 CMakeFiles/Linux_Shell.dir/main.c.o: ../batch.h
+CMakeFiles/Linux_Shell.dir/main.c.o: ../commandState.h
 CMakeFiles/Linux_Shell.dir/main.c.o: ../environment.h
+CMakeFiles/Linux_Shell.dir/main.c.o: ../executer.h
 CMakeFiles/Linux_Shell.dir/main.c.o: ../history.h
 CMakeFiles/Linux_Shell.dir/main.c.o: ../interactive.h
 CMakeFiles/Linux_Shell.dir/main.c.o: ../logger.h

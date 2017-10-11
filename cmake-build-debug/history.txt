@@ -206,3 +206,17 @@ echo $$$
 echo $$$$
 exit
 exit
+ls
+ls
+echo $HOME
+PATH=/bin/
+echo $PATH
+ls
+printenv
+printenv
+printenv
+echo $HOME
+printenv
+printenv
+printenv -0
+printenv

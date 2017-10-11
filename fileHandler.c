@@ -6,6 +6,11 @@
 
 char* nullArray[] = {NULL};
 
+/**
+ *  used in batch mode to read the commands from the file and return them as array of strings
+ * @param fileName
+ * @return
+ */
 char** readFile(const char* fileName){
     char * line = NULL;
     size_t len = 0;

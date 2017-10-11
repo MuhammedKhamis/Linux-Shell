@@ -7,6 +7,12 @@
 #include <unistd.h>
 #include <string.h>
 
+/**
+ *      execute the basic command as ls, pwd, ps, ...etc.
+ * @param state
+ * @return
+ */
+
 int basic(commandState state){
 
     char* path = get_variable("PATH");
