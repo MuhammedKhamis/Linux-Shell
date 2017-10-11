@@ -284,4 +284,55 @@ x=5
 echo $x
 echo "hello world"
 echo              	"hello           world"
-history
+historypwd
+ls -la
+gedit
+ls
+cd Desktop
+ls
+cd "linux Training"
+ls
+x=5
+echo $x
+echo $PATH
+echo PATH
+printenv
+ls
+cd desktop
+x=sadwad
+echo $x
+x = 5
+echo $x
+l,vdq sdwqekf
+"
+clear
+exitsss
+exit
+git
+printenv
+git status
+pwd
+ls
+cd /
+ls
+cd media
+ls
+cd muhammed
+ls
+cd Shared
+ls
+cd Work
+ls
+cd "CSED 19"
+ls
+cd C
+ls
+cd "3rd Year"
+ls
+cd "Operating System"
+ls
+cd Linux-shell
+cd Linux-Shell
+ls
+git status
+git add .
