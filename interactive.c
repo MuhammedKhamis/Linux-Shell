@@ -15,7 +15,7 @@ void interactive(){
     char* command = NULL;
     size_t len = 0;
     while(1){
-        printf(">> ");
+        printf("SHELL>>");
         if(getline(&command, &len, stdin) == -1){
             appendToLogger("Error from Reading from Console\n");
             printf("\n");

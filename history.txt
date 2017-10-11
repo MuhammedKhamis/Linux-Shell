@@ -366,3 +366,95 @@ ls
 clear
 git status
 git add .
+git commit -m "adding new changes"
+git push origin master
+clear
+git status
+clear
+exit
+ls
+ls -al
+ls -a -l
+/bin/ls -l -a
+        /bin/ls     -l 
+!ps
+bin/ps
+pwd &
+mkdir cs333
+touch cs333/lab1.txt
+ls
+cd ~/cs333
+pwd
+cd ../
+cd ~
+wc cs333/lab1.txt
+cat cs333/lab1.txt
+#this is a comment
+x=5
+echo $x
+y=$x\6
+echo $y
+ls
+cd /usr/$x/$y
+cd $HOME
+export v="-a -l"
+ls $v
+x=45
+HOME=/home
+ls
+ls -al
+ls -a -l
+/bin/ls -l -a
+        /bin/ls     -l 
+!ps
+bin/ps
+pwd &
+mkdir cs333
+touch cs333/lab1.txt
+ls
+cd ~/cs333
+pwd
+cd ../
+cd ~
+wc cs333/lab1.txt
+cat cs333/lab1.txt
+#this is a comment
+x=5
+echo $x
+y=$x\6
+echo $y
+ls
+cd /usr/$x/$y
+cd $HOME
+export v="-a -l"
+ls $v
+x=45
+HOME=/home
+        /bin/ls     -l 
+!ps
+bin/ps
+pwd &
+mkdir cs333
+touch cs333/lab1.txt
+ls
+cd ~/cs333
+pwd
+cd ../
+cd ~
+wc cs333/lab1.txt
+cat cs333/lab1.txt
+#this is a comment
+x=5
+echo $x
+y=$x\6
+echo $y
+ls
+cd /usr/$x/$y
+cd $HOME
+export v="-a -l"
+ls $v
+x=45
+HOME=/home
+        /bin/ls     -l 
+        /bin/ls     -l 
+!

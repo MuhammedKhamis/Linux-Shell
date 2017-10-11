@@ -124,7 +124,7 @@ void divide_into_arguments(char* command , commandState* state){
     int out=1;
     int mask = 0;
     int turn = 0;
-    for(i=0;i<n;i++){
+    for(i=0;i<n && command[i]!='\n';i++){
         if(skip(command[i]))
             continue;
         int j = i;
