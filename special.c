@@ -231,8 +231,15 @@ int export(commandState state){
 int printenv(commandState state){
     char c='\n';
     int i = 1;
-    while( state.arg_list[i]
-           && (!strcmp(state.arg_list[i],"--null") || !strcmp(state.arg_list[i],"-0"))){
+    while(state.arg_list[i]){
+        if(state.arg_list[i][0]=='-'){
+            if(strcmp(state.arg_list[i],"--null") && strcmp(state.arg_list[i],"-0")){
+                fprintf(stderr,"Error in printenv %s is not valid\n",state.arg_list[i]);
+                return 1;
+            }
+        }else{
+            break;
+        }
         i++;
         c='\0';
     }

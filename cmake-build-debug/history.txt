@@ -225,3 +225,4 @@ asdcesa
 xjcknvewrwer
 ls
 cd desktop
+printenv -asdd
